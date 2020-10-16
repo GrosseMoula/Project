@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bg" stylesheets="@../css_files/css_1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.donkeykong.controller.AccueilController">
+	<children>
+		<Button layoutX="182.0" layoutY="298.0" mnemonicParsing="false" onAction="#Quit" prefHeight="22.0" prefWidth="236.0" styleClass="custom-button" stylesheets="@../css_files/css_1.css" text="Quitter" />
+		<Button layoutX="182.0" layoutY="160.0" mnemonicParsing="false" onAction="#Play" prefHeight="39.0" prefWidth="236.0" styleClass="custom-button" stylesheets="@../css_files/css_1.css" text="Jouer" />
+		<Label alignment="CENTER" contentDisplay="CENTER" layoutY="44.0" prefHeight="68.0" prefWidth="600.0" text="Donkey Kong : à la recherche de la banane perdue " textFill="WHITE">
+			<font>
+				<Font name="Berlin Sans FB Demi Bold" size="21.0" />
+			</font>
+		</Label>
+      <Button onAction = "#Showscore" layoutX="182.0" layoutY="232.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="236.0" styleClass="custom-button" text="Score" />
+	</children>
+</AnchorPane>

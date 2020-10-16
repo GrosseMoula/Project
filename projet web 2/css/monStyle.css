@@ -1,0 +1,134 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+
+
+  body
+{
+	background-image: url("gradient-spots-texture-color.jpg");
+}
+.transparance {
+  background : none;
+  border: none;
+}
+
+.pacific
+{
+  font-family: 'Pacifico', cursive;
+}
+.gauche
+{
+  align : left;
+}
+.droite
+{
+  align : right;
+}
+.bordure
+{
+  border : 1px solid;
+  outline-style : solid;
+  outline-color : white;
+  outline-width : thin;
+}
+input[type = text]
+{
+  border : 1px solid black;
+
+}
+input[type = password]
+{
+  border : 1px solid black;
+}
+.formulaire
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.degrade {
+  background-image: url("gradient-spots-texture-color.jpg");
+}
+.blanco
+{
+  color: white;
+}
+.centre 
+{
+float : none;
+  margin: 0 auto;
+}
+
+.bouton
+{
+  background-color: #D99BFA;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+}
+.center-div
+{
+  margin-top : 40vh;
+  transform  : translateY(-40%);
+}
+.caps
+{
+  font-variant : small-caps;
+}
+.custom-file-upload input[type="file"] {
+  display: none;
+}
+.custom-file-upload .custom-file-upload1 {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.containeur
+{
+  background-image: gray(255);
+  overflow: hidden;
+
+}
+.centre
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  text-align: center;
+  
+}
+.note
+{
+  text-align: center;
+  height: 80px;
+  background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+  color: #fff;
+  font-weight: bold;
+  line-height: 80px;
+}
+.form-content
+{
+  padding: 5%;
+  border: 1px solid #ced4da;
+  margin-bottom: 2%;
+}
+.form-control{
+  border-radius:1.5rem;
+}
+.btnSubmit
+{
+  border:none;
+  border-radius:1.5rem;
+  padding: 1%;
+  width: 20%;
+  cursor: pointer;
+  background: #0062cc;
+  color: #fff;
+}

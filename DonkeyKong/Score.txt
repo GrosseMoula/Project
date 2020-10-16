@@ -1,0 +1,4 @@
+Marvin : 30
+Lihwak : 60
+Khalid : 45
+Sami : 45

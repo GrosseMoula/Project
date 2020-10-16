@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bg" stylesheets="@../css_files/css_1.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.donkeykong.controller.SettingsController">
+   <children>
+      <Label layoutX="110.0" layoutY="33.0" text="Configuration d'avant partie" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB Demi Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="276.0" layoutY="99.0" text="Volume" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="20.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="yesvolume" layoutX="50.0" layoutY="163.0" mnemonicParsing="false" text="Oui" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="novolume" layoutX="482.0" layoutY="163.0" mnemonicParsing="false" text="Non" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="286.0" layoutY="215.0" />
+      <Label layoutX="276.0" layoutY="214.0" text="Difficultés" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="easy" layoutX="50.0" layoutY="277.0" mnemonicParsing="false" text="Facile" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="moyen" layoutX="286.0" layoutY="277.0" mnemonicParsing="false" text="Moyen" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="hard" layoutX="482.0" layoutY="277.0" mnemonicParsing="false" text="Difficile" textFill="WHITE">
+         <font>
+            <Font name="Berlin Sans FB" size="14.0" />
+         </font>
+      </RadioButton>
+      <Button layoutX="467.0" layoutY="328.0" mnemonicParsing="false" onAction="#Begin" styleClass="custom-button" stylesheets="@../css_files/css_1.css" text="Commencer" />
+      <Label fx:id="CheckError" layoutX="74.0" layoutY="328.0" textFill="#ff1414">
+         <font>
+            <Font name="Berlin Sans FB" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
